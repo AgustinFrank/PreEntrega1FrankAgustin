@@ -9,7 +9,7 @@ function Header() {
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand>
-          <CartWidget />
+          <img src="" alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -23,6 +23,7 @@ function Header() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
+        <CartWidget />
       </Container>
     </Navbar>
   );
