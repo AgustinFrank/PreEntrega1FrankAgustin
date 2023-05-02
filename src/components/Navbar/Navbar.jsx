@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import CartWidget from "../CartWidget/CartWidget";
 
-function Header() {
+function NavBar() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -29,4 +29,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default NavBar;

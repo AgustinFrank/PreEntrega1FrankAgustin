@@ -1,13 +1,12 @@
 import "/";
 import "./App.css";
-import "./components/Navbar/Navbar";
-import Header from "./components/Navbar/Navbar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import NavBar from "./components/Navbar/Navbar";
 function App() {
   return (
     <div>
-      <Header />
-      <ItemListContainer />
+      <NavBar />
+      <ItemListContainer greeting="un saludo" />
     </div>
   );
 }
